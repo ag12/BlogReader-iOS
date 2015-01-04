@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		1A4369E11A3F57A100FFA487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4369E01A3F57A100FFA487 /* main.m */; };
 		1A4369E41A3F57A100FFA487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4369E31A3F57A100FFA487 /* AppDelegate.m */; };
-		1A4369E71A3F57A100FFA487 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4369E61A3F57A100FFA487 /* MasterViewController.m */; };
-		1A4369EA1A3F57A100FFA487 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4369E91A3F57A100FFA487 /* DetailViewController.m */; };
-		1A4369ED1A3F57A100FFA487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4369EB1A3F57A100FFA487 /* Main.storyboard */; };
 		1A4369EF1A3F57A100FFA487 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4369EE1A3F57A100FFA487 /* Images.xcassets */; };
 		1A4369F21A3F57A100FFA487 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4369F01A3F57A100FFA487 /* LaunchScreen.xib */; };
 		1A4369FE1A3F57A100FFA487 /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4369FD1A3F57A100FFA487 /* BlogReaderTests.m */; };
+		1AD3C5F71A51C3430032A3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3C5F61A51C3430032A3EC /* Main.storyboard */; };
+		1AD3C5FF1A51C60B0032A3EC /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3C5FE1A51C60B0032A3EC /* AMViewController.m */; };
+		1AD3C6021A51C9710032A3EC /* AMDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3C6011A51C9710032A3EC /* AMDataSource.m */; };
+		1AD3C6051A51C9B80032A3EC /* AMDataViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3C6041A51C9B80032A3EC /* AMDataViewCell.m */; };
+		1AD3C6091A51E2E90032A3EC /* AMPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3C6081A51E2E90032A3EC /* AMPost.m */; };
+		1AD3C60F1A51E78D0032A3EC /* AMWebAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3C60E1A51E78D0032A3EC /* AMWebAPIClient.m */; };
+		1AD3C6141A51EC7A0032A3EC /* AMWebAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3C6131A51EC7A0032A3EC /* AMWebAPIRequest.m */; };
+		1AD3C6171A51EE360032A3EC /* AMWebAPIGet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3C6161A51EE360032A3EC /* AMWebAPIGet.m */; };
+		1AD3C61B1A51EF430032A3EC /* AMPostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3C61A1A51EF430032A3EC /* AMPostManager.m */; };
+		1AE893981A59680D002C94D1 /* treehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE893971A59680D002C94D1 /* treehouse.png */; };
+		1AE893D51A59BBDB002C94D1 /* AMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE893D41A59BBDB002C94D1 /* AMWebViewController.m */; };
+		CE28482A8FF03F838319317A /* libPods-BlogReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B41457681E4D94FA33EE207 /* libPods-BlogReader.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,18 +40,38 @@
 		1A4369DB1A3F57A100FFA487 /* BlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4369DF1A3F57A100FFA487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A4369E01A3F57A100FFA487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A4369E21A3F57A100FFA487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1A4369E31A3F57A100FFA487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A4369E51A3F57A100FFA487 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		1A4369E61A3F57A100FFA487 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		1A4369E81A3F57A100FFA487 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		1A4369E91A3F57A100FFA487 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		1A4369EC1A3F57A100FFA487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1A4369EE1A3F57A100FFA487 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A4369E21A3F57A100FFA487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Delegate/AppDelegate.h; sourceTree = "<group>"; };
+		1A4369E31A3F57A100FFA487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Delegate/AppDelegate.m; sourceTree = "<group>"; };
+		1A4369EE1A3F57A100FFA487 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BlogReader/Images.xcassets; sourceTree = "<group>"; };
 		1A4369F11A3F57A100FFA487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A4369F71A3F57A100FFA487 /* BlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4369FC1A3F57A100FFA487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A4369FD1A3F57A100FFA487 /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
+		1AD3C5F61A51C3430032A3EC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = StoryBoard/Main.storyboard; sourceTree = "<group>"; };
+		1AD3C5FD1A51C60B0032A3EC /* AMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMViewController.h; path = Classes/ViewControllers/AMViewController.h; sourceTree = "<group>"; };
+		1AD3C5FE1A51C60B0032A3EC /* AMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMViewController.m; path = Classes/ViewControllers/AMViewController.m; sourceTree = "<group>"; };
+		1AD3C6001A51C9710032A3EC /* AMDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMDataSource.h; path = Classes/ViewControllers/AMDataSource.h; sourceTree = "<group>"; };
+		1AD3C6011A51C9710032A3EC /* AMDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMDataSource.m; path = Classes/ViewControllers/AMDataSource.m; sourceTree = "<group>"; };
+		1AD3C6031A51C9B80032A3EC /* AMDataViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMDataViewCell.h; path = Classes/ViewControllers/AMDataViewCell.h; sourceTree = "<group>"; };
+		1AD3C6041A51C9B80032A3EC /* AMDataViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMDataViewCell.m; path = Classes/ViewControllers/AMDataViewCell.m; sourceTree = "<group>"; };
+		1AD3C6071A51E2E90032A3EC /* AMPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPost.h; path = Classes/Entity/AMPost.h; sourceTree = "<group>"; };
+		1AD3C6081A51E2E90032A3EC /* AMPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPost.m; path = Classes/Entity/AMPost.m; sourceTree = "<group>"; };
+		1AD3C60D1A51E78D0032A3EC /* AMWebAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMWebAPIClient.h; path = Services/AMWebAPIClient.h; sourceTree = "<group>"; };
+		1AD3C60E1A51E78D0032A3EC /* AMWebAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMWebAPIClient.m; path = Services/AMWebAPIClient.m; sourceTree = "<group>"; };
+		1AD3C6121A51EC7A0032A3EC /* AMWebAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMWebAPIRequest.h; path = Services/AMWebAPIRequest.h; sourceTree = "<group>"; };
+		1AD3C6131A51EC7A0032A3EC /* AMWebAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMWebAPIRequest.m; path = Services/AMWebAPIRequest.m; sourceTree = "<group>"; };
+		1AD3C6151A51EE360032A3EC /* AMWebAPIGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMWebAPIGet.h; path = Services/AMWebAPIGet.h; sourceTree = "<group>"; };
+		1AD3C6161A51EE360032A3EC /* AMWebAPIGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMWebAPIGet.m; path = Services/AMWebAPIGet.m; sourceTree = "<group>"; };
+		1AD3C6191A51EF430032A3EC /* AMPostManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPostManager.h; path = Services/AMPostManager.h; sourceTree = "<group>"; };
+		1AD3C61A1A51EF430032A3EC /* AMPostManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPostManager.m; path = Services/AMPostManager.m; sourceTree = "<group>"; };
+		1AE893971A59680D002C94D1 /* treehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehouse.png; sourceTree = "<group>"; };
+		1AE893D31A59BBDB002C94D1 /* AMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMWebViewController.h; path = Classes/ViewControllers/AMWebViewController.h; sourceTree = "<group>"; };
+		1AE893D41A59BBDB002C94D1 /* AMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMWebViewController.m; path = Classes/ViewControllers/AMWebViewController.m; sourceTree = "<group>"; };
+		1AEAA27C1A41F961002C0BE2 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logging.h; path = Utils/Logging.h; sourceTree = "<group>"; };
+		1AEAA27D1A41F9A4002C0BE2 /* BlogReader-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlogReader-Prefix.pch"; sourceTree = "<group>"; };
+		1B41457681E4D94FA33EE207 /* libPods-BlogReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B42C24379879902B333AA6D /* Pods-BlogReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlogReader/Pods-BlogReader.debug.xcconfig"; sourceTree = "<group>"; };
+		9AD45F45FBA3C3FD1C030898 /* Pods-BlogReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlogReader/Pods-BlogReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE28482A8FF03F838319317A /* libPods-BlogReader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +93,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0DFC1D1A41EF3A0019D343 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1A4369E21A3F57A100FFA487 /* AppDelegate.h */,
+				1A4369E31A3F57A100FFA487 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		1A0DFC1E1A41EF460019D343 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6061A51D9DC0032A3EC /* Entity */,
+				1A0DFC1F1A41EF9C0019D343 /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1A0DFC1F1A41EF9C0019D343 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AE893D21A59BBBC002C94D1 /* Web */,
+				1AD3C5F91A51C5B80032A3EC /* Reader */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1A0DFC201A41EFB40019D343 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C5F61A51C3430032A3EC /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		1A0DFC231A41F3930019D343 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A0DFC241A41F39B0019D343 /* Logg */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1A0DFC241A41F39B0019D343 /* Logg */ = {
+			isa = PBXGroup;
+			children = (
+				1AEAA27C1A41F961002C0BE2 /* Logging.h */,
+			);
+			name = Logg;
+			sourceTree = "<group>";
+		};
 		1A4369D21A3F57A100FFA487 = {
 			isa = PBXGroup;
 			children = (
 				1A4369DD1A3F57A100FFA487 /* BlogReader */,
+				1A4369EE1A3F57A100FFA487 /* Images.xcassets */,
+				1A4369F01A3F57A100FFA487 /* LaunchScreen.xib */,
 				1A4369FA1A3F57A100FFA487 /* BlogReaderTests */,
 				1A4369DC1A3F57A100FFA487 /* Products */,
+				E5ACD3757354B80EFAD45A70 /* Pods */,
+				A594F548D419165A424FE16E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,15 +169,11 @@
 		1A4369DD1A3F57A100FFA487 /* BlogReader */ = {
 			isa = PBXGroup;
 			children = (
-				1A4369E21A3F57A100FFA487 /* AppDelegate.h */,
-				1A4369E31A3F57A100FFA487 /* AppDelegate.m */,
-				1A4369E51A3F57A100FFA487 /* MasterViewController.h */,
-				1A4369E61A3F57A100FFA487 /* MasterViewController.m */,
-				1A4369E81A3F57A100FFA487 /* DetailViewController.h */,
-				1A4369E91A3F57A100FFA487 /* DetailViewController.m */,
-				1A4369EB1A3F57A100FFA487 /* Main.storyboard */,
-				1A4369EE1A3F57A100FFA487 /* Images.xcassets */,
-				1A4369F01A3F57A100FFA487 /* LaunchScreen.xib */,
+				1A0DFC231A41F3930019D343 /* Utils */,
+				1A0DFC201A41EFB40019D343 /* StoryBoard */,
+				1A0DFC1E1A41EF460019D343 /* Classes */,
+				1A0DFC1D1A41EF3A0019D343 /* Delegate */,
+				1AD3C60A1A51E6730032A3EC /* Services */,
 				1A4369DE1A3F57A100FFA487 /* Supporting Files */,
 			);
 			path = BlogReader;
@@ -101,8 +182,10 @@
 		1A4369DE1A3F57A100FFA487 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1AE893971A59680D002C94D1 /* treehouse.png */,
 				1A4369DF1A3F57A100FFA487 /* Info.plist */,
 				1A4369E01A3F57A100FFA487 /* main.m */,
+				1AEAA27D1A41F9A4002C0BE2 /* BlogReader-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,6 +207,133 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1AD3C5F91A51C5B80032A3EC /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C5FC1A51C5D00032A3EC /* List */,
+				1AD3C5FB1A51C5C80032A3EC /* Source */,
+				1AD3C5FA1A51C5BE0032A3EC /* Cell */,
+			);
+			name = Reader;
+			sourceTree = "<group>";
+		};
+		1AD3C5FA1A51C5BE0032A3EC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6031A51C9B80032A3EC /* AMDataViewCell.h */,
+				1AD3C6041A51C9B80032A3EC /* AMDataViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1AD3C5FB1A51C5C80032A3EC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6001A51C9710032A3EC /* AMDataSource.h */,
+				1AD3C6011A51C9710032A3EC /* AMDataSource.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AD3C5FC1A51C5D00032A3EC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C5FD1A51C60B0032A3EC /* AMViewController.h */,
+				1AD3C5FE1A51C60B0032A3EC /* AMViewController.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		1AD3C6061A51D9DC0032A3EC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6071A51E2E90032A3EC /* AMPost.h */,
+				1AD3C6081A51E2E90032A3EC /* AMPost.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		1AD3C60A1A51E6730032A3EC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6181A51EF220032A3EC /* Manager */,
+				1AD3C60B1A51E6A00032A3EC /* WebServices */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		1AD3C60B1A51E6A00032A3EC /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6111A51EC5D0032A3EC /* Get */,
+				1AD3C6101A51EC560032A3EC /* Request */,
+				1AD3C60C1A51E6AB0032A3EC /* Client */,
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		1AD3C60C1A51E6AB0032A3EC /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C60D1A51E78D0032A3EC /* AMWebAPIClient.h */,
+				1AD3C60E1A51E78D0032A3EC /* AMWebAPIClient.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		1AD3C6101A51EC560032A3EC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6121A51EC7A0032A3EC /* AMWebAPIRequest.h */,
+				1AD3C6131A51EC7A0032A3EC /* AMWebAPIRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		1AD3C6111A51EC5D0032A3EC /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6151A51EE360032A3EC /* AMWebAPIGet.h */,
+				1AD3C6161A51EE360032A3EC /* AMWebAPIGet.m */,
+			);
+			name = Get;
+			sourceTree = "<group>";
+		};
+		1AD3C6181A51EF220032A3EC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3C6191A51EF430032A3EC /* AMPostManager.h */,
+				1AD3C61A1A51EF430032A3EC /* AMPostManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		1AE893D21A59BBBC002C94D1 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				1AE893D31A59BBDB002C94D1 /* AMWebViewController.h */,
+				1AE893D41A59BBDB002C94D1 /* AMWebViewController.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		A594F548D419165A424FE16E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B41457681E4D94FA33EE207 /* libPods-BlogReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5ACD3757354B80EFAD45A70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B42C24379879902B333AA6D /* Pods-BlogReader.debug.xcconfig */,
+				9AD45F45FBA3C3FD1C030898 /* Pods-BlogReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A436A011A3F57A100FFA487 /* Build configuration list for PBXNativeTarget "BlogReader" */;
 			buildPhases = (
+				5AB26B91D1100CA4405E3D29 /* Check Pods Manifest.lock */,
 				1A4369D71A3F57A100FFA487 /* Sources */,
 				1A4369D81A3F57A100FFA487 /* Frameworks */,
 				1A4369D91A3F57A100FFA487 /* Resources */,
+				D4C4231009CEA1A8CB9CB674 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,7 +416,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4369ED1A3F57A100FFA487 /* Main.storyboard in Resources */,
+				1AE893981A59680D002C94D1 /* treehouse.png in Resources */,
+				1AD3C5F71A51C3430032A3EC /* Main.storyboard in Resources */,
 				1A4369F21A3F57A100FFA487 /* LaunchScreen.xib in Resources */,
 				1A4369EF1A3F57A100FFA487 /* Images.xcassets in Resources */,
 			);
@@ -219,15 +432,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AB26B91D1100CA4405E3D29 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C4231009CEA1A8CB9CB674 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlogReader/Pods-BlogReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A4369D71A3F57A100FFA487 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD3C60F1A51E78D0032A3EC /* AMWebAPIClient.m in Sources */,
+				1AE893D51A59BBDB002C94D1 /* AMWebViewController.m in Sources */,
 				1A4369E41A3F57A100FFA487 /* AppDelegate.m in Sources */,
-				1A4369E71A3F57A100FFA487 /* MasterViewController.m in Sources */,
+				1AD3C6091A51E2E90032A3EC /* AMPost.m in Sources */,
+				1AD3C61B1A51EF430032A3EC /* AMPostManager.m in Sources */,
+				1AD3C6141A51EC7A0032A3EC /* AMWebAPIRequest.m in Sources */,
+				1AD3C6021A51C9710032A3EC /* AMDataSource.m in Sources */,
 				1A4369E11A3F57A100FFA487 /* main.m in Sources */,
-				1A4369EA1A3F57A100FFA487 /* DetailViewController.m in Sources */,
+				1AD3C5FF1A51C60B0032A3EC /* AMViewController.m in Sources */,
+				1AD3C6051A51C9B80032A3EC /* AMDataViewCell.m in Sources */,
+				1AD3C6171A51EE360032A3EC /* AMWebAPIGet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,20 +503,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1A4369EB1A3F57A100FFA487 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A4369EC1A3F57A100FFA487 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A4369F01A3F57A100FFA487 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1A4369F11A3F57A100FFA487 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = BlogReader;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,6 +538,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/BlogReader-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -332,6 +580,8 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/BlogReader-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -347,6 +597,7 @@
 		};
 		1A436A021A3F57A100FFA487 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B42C24379879902B333AA6D /* Pods-BlogReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlogReader/Info.plist;
@@ -357,6 +608,7 @@
 		};
 		1A436A031A3F57A100FFA487 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD45F45FBA3C3FD1C030898 /* Pods-BlogReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlogReader/Info.plist;
@@ -418,6 +670,7 @@
 				1A436A031A3F57A100FFA487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A436A041A3F57A100FFA487 /* Build configuration list for PBXNativeTarget "BlogReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +679,7 @@
 				1A436A061A3F57A100FFA487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

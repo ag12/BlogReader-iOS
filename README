@@ -1,2 +1,6 @@
 Tutorial: Blog reader!
+Origin Teamtreehouse. 
+
+This application uses a different approach (from the origin) to solve the problem.
+Using AFNetworking, ReactiveCocoa and Mantle.
 
